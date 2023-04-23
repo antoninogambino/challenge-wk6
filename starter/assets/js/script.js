@@ -110,6 +110,26 @@ function showFeedback(message, className) {
     }, 1000);
   }
   
-  document.getElementById('view-high-scores').addEventListener('click', function() {
+  document.getElementById('scores').addEventListener('click', function() {
     window.location.href = 'highscores.html';
-  });  
+  });
+
+  const submitButton = document.getElementById('submit');
+submitButton.addEventListener('click', function(event) {
+  event.preventDefault();
+  const initials = document.getElementById('initials').value;
+  const score = userScore;
+
+  // Create an object with the user's data
+  const userData = {
+    initials: initials,
+    score: score
+  };
+
+  // Save the user's data to local storage and redirect to the high scores page
+  const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+  highScores.push(userData);
+  highScores.sort((a, b) => b.score - a.score);
+  localStorage.setItem('highScores', JSON.stringify(highScores));
+  window.location.href = 'highscores.html';
+});

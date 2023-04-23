@@ -9,3 +9,9 @@ document.getElementById('start').addEventListener('click', function() {
     // Hide the start screen and show the questions
     document.getElementById('start-screen').classList.add('hide');
     document.getElementById('questions').classList.remove('hide');
+
+    // Set up the timer to decrement remaining time every second
+  const timeElement = document.getElementById('time');
+  timer = setInterval(() => {
+    remainingTime--;
+    timeElement.textContent = remainingTime;

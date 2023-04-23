@@ -1,19 +1,8 @@
 # Module 6 Challenge Web APIs: Code Quiz
 
-## Your Task
-
-As you proceed in your journey to becoming a front-end web developer, it’s likely that you’ll be asked to complete a coding assessment, perhaps as part of an interview process. A typical coding assessment is a combination of multiple-choice questions and interactive coding challenges. 
-
-To help you become familiar with these tests and give you a chance to apply the skills from this module, this week’s challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. This week’s coursework has taught you all the skills you need to succeed in this challenge.
- 
-
 ## User Story
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+This is a simple quiz application that allows the user to answer a set of questions and get a score at the end. The application has the following requirements:
 
 ## Acceptance Criteria
 
@@ -31,11 +20,11 @@ Create a code quiz that contains the following requirements:
 
   * When the game ends, it should display their score and give the user the ability to save their initials and their score
   
-## Mock-Up
+## Implementation
 
-The following animation demonstrates the application functionality:
+The application starts with a start button on the home screen. When the user clicks the start button, the timer starts and the first question appears. The user has to answer the question by clicking one of the answer buttons. If the answer is correct, the user's score increases, and if the answer is incorrect, time is subtracted from the clock. The next question appears after the user answers the current question. The quiz ends when all questions are answered or the timer reaches 0. At the end of the quiz, the user's score is displayed along with the ability to save their initials and score.
 
-![Animation of code quiz. Presses button to start quiz. Clicks the button for the answer to each question, displays if answer was correct or incorrect. Quiz finishes and displays high scores. User adds their intials, then clears their intials and starts over.](./assets/08-web-apis-challenge-demo.gif)
+The app.js file contains the logic for the quiz. The questions array contains the list of questions for the quiz. The displayQuestion function displays the current question, and the handleAnswerClick function handles the user's answer. The endQuiz function is called when the quiz ends and saves the user's score and initials to local storage.
 
 ## Grading Requirements
 
@@ -45,7 +34,7 @@ This challenge is graded based on the following criteria:
 
 * Satisfies all of the above acceptance criteria.
 
-### Deployment: 32%
+### Deployment:
 
 * Application deployed at live URL.
 

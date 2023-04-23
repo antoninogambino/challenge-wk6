@@ -32,5 +32,14 @@ GitHub deployed repository: https://antoninogambino.github.io/challenge-wk6/
 
 ### Deployed application screenshot:
 
+Questions:
+![image](https://user-images.githubusercontent.com/112243266/233845842-6917caf2-590a-44f0-aeb4-baeecdb9ae42.png)
+
+Initials submission after quiz ended:
+![image](https://user-images.githubusercontent.com/112243266/233845871-a6270815-a149-466c-92a1-534ac66d703b.png)
+
+Highscores sections where initials get stored:
+![image](https://user-images.githubusercontent.com/112243266/233845898-c69bfe2d-e913-4e3a-ad1c-77eb952c3f0c.png)
+
 ---
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

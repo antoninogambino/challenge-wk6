@@ -28,7 +28,7 @@ The app.js file contains the logic for the quiz. The questions array contains th
 
 URL: https://github.com/antoninogambino/challenge-wk6.git
 
-GitHub deployed repository: https://github.com/antoninogambino/my-portfolio.git
+GitHub deployed repository: https://antoninogambino.github.io/challenge-wk6/
 
 ### Deployed application screenshot:
 

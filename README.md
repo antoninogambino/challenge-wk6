@@ -26,52 +26,13 @@ The application starts with a start button on the home screen. When the user cli
 
 The app.js file contains the logic for the quiz. The questions array contains the list of questions for the quiz. The displayQuestion function displays the current question, and the handleAnswerClick function handles the user's answer. The endQuiz function is called when the quiz ends and saves the user's score and initials to local storage.
 
-## Grading Requirements
-
-This challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
 ### Deployment:
 
-* Application deployed at live URL.
+URL: https://github.com/antoninogambino/challenge-wk6.git
 
-* Application loads with no errors.
+GitHub deployed repository: https://github.com/antoninogambino/my-portfolio.git
 
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+### Deployed application screenshot:
 
 ---
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

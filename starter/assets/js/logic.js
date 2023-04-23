@@ -15,3 +15,10 @@ document.getElementById('start').addEventListener('click', function() {
   timer = setInterval(() => {
     remainingTime--;
     timeElement.textContent = remainingTime;
+
+    // End the quiz if time runs out or all questions have been answered
+    if (remainingTime <= 0 || currentQuestionIndex >= questions.length) {
+        clearInterval(timer);
+        endQuiz();
+      }
+    }, 1000);
